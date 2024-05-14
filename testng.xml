@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.practice.listener.ListenerClass"/>
+        <listener class-name="com.practice.listener.MethodInterceptor"/>
+        <listener class-name="com.practice.listener.AnnotationTransformer"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/work/document-profile-ui-automation">
+
+        <classes>
+            <class name="com.practice.tests.RegisterPageTests"/>
+            <class name ="com.practice.tests.LoginPageTests"/>
+
+
+        </classes>
+    </test>
+</suite>

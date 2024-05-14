@@ -1,0 +1,18 @@
+package com.practice.enums;
+
+public enum ConfigProperties {
+
+    URL,
+    BROWSER,
+    DYNAMICREPORTS,
+    PASSEDSTEPSSCREENSHOT,
+    FAILEDSTEPSSCREENSHOT,
+    SKIPPEDSTEPSSCREENSHOT,
+
+    RETRYFAILEDTESTS,
+    RUNMODE,
+    SENDRESULTTOELK,
+    ELASTICSEARCHURL,
+    GRIDURL;
+
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.practice.listener.ListenerClass"/>
+    <listener class-name="com.practice.listener.MethodInterceptor"/>
+    <listener class-name="com.practice.listener.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="D:/work/document-profile-ui-automation(failed)">
+    <classes>
+      <class name="com.practice.tests.LoginPageTests">
+        <methods>
+          <include name="tearDownReports"/>
+          <include name="initReports"/>
+          <include name="tearDown"/>
+          <include name="validateLogin" invocation-numbers="0 1 2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.practice.tests.LoginPageTests -->
+    </classes>
+  </test> <!-- D:/work/document-profile-ui-automation(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
